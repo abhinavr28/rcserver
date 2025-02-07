@@ -3,7 +3,7 @@ require (`dotenv`).config()
 const express = require (`express`)
 
 const cors = require(`cors`)
-const router=require("../rcserver/Router/Router")
+const router=require("./Router/Router")
 require("./DB/connection")
 
 
